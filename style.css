@@ -1,0 +1,75 @@
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    background-color: #3a3f4d;
+}
+
+.container{
+    margin: 50px auto;
+    border-radius: 50px;
+    padding: 10px;
+    width:450px ;
+}
+.login-form{
+    margin: 100px auto;
+    width: 80%;
+}
+#logo{
+    color: #f2f4f5;
+    font-size: 40px;
+    margin-bottom: 80px;
+    font-family: "Black Han Sans", sans-serif;
+    font-weight: 400;
+    font-style:normal;
+}
+#inputs{
+    display: flex;
+    flex-wrap: wrap;  
+}
+
+#username, #password{
+    outline: none; /*elimina el resalte de los imputs*/ 
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    border: none ;
+    border-bottom: 2px solid #767a87;
+   width: 110%;
+   height: 50px;
+   color: #f2f4f5 ;
+   font-family: sans-serif;
+}
+
+#username:hover , #password:hover{
+    border-bottom: 2px solid #b19e33;
+}
+#logear{
+    margin: 30px auto; padding: 20px;
+    width: 90%;
+    border-radius: 50px;
+    border: none;
+    background-color: #0e0d0ddc;
+    color: #f2f4f5;
+    font-size: 25px;
+    font-family: "Black Han Sans", sans-serif;
+    cursor: pointer;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.5);
+}
+
+#registrarte{
+    font-family: "Black Han Sans", sans-serif;
+    color: #f2f4f5;
+    text-align: center;
+}
+#registrarte p > a{
+    color: #acc0cb;
+    text-decoration: none;
+}
+#svg{
+    width: 35px;
+    display: flex;
+    position: relative;
+    top: 38px;
+    fill:#ffffff;
+}
