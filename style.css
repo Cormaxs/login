@@ -5,10 +5,11 @@
 }
 
 .container{
-    margin: 50px auto;
+     margin: 50px auto;
     border-radius: 50px;
     padding: 10px;
-    width:450px ;
+    min-width:auto ;
+    max-width: 500px;
 }
 .login-form{
     margin: 100px auto;
